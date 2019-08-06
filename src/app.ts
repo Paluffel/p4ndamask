@@ -87,7 +87,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                 }
             })
         {
-                // AltspaceVR resource IDs from https://account.altvr.com/kits/
+                //222222 AltspaceVR resource IDs from https://account.altvr.com/kits/
     const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
     libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
        resourceId: "artifact: 1268209511420658610",
@@ -99,6 +99,29 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
             }}
         }
     }))
-}
+        // 2222Set up cursor interaction. We add the input behavior ButtonBehavior to the cube.
+       // Button behaviors have two pairs of events: hover start/stop, and click start/stop.
+       libraryActors.forEach((actor: MRE.ForwardPromise<MRE.Actor>) => {
+        if (actor) {
+            const buttonBehavior = actor.value.setBehavior(MRE.ButtonBehavior);
+
+            // 2222222222Trigger the grow/shrink animations on hover
+            //@ts-ignore
+                buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
+                 const model = Actor.CreateFromLibrary(this.context, {
+                     resourceId: "artifact: 1221109463394550569",
+                     actor: {
+                         name: 'Paluffel 02',
+                         transform: {local:{
+                             position: { x: 0, y: 0, z: 0},
+                             scale: { x: 1.4, y: 1.4, z: 1.4}
+                        }}
+                  }
+              }).value;
+              model.attach(user, "head");
+                })
+             }
+         })
+        }
     }
 }
