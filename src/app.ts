@@ -90,12 +90,12 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                 // AltspaceVR resource IDs from https://account.altvr.com/kits/
     const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
     libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
-        resourceId: "artifact: 989569229617365197",
-        actor: {
-            name: 'Cube',
+       resourceId: "artifact: 1268209511420658610",
+    actor: {
+        name: 'P4ndam4sk 02',
             transform: {local:{
             position: { x: 0, y: -0.1, z: 6 },
-            scale: { x: 1, y: 1, z: 1}
+             scale: { x: 0.25, y: 0.25, z: 0.25}
             }}
         }
     }))
