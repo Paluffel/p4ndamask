@@ -73,12 +73,12 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                //@ts-ignore
                    buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                     const model = Actor.CreateFromLibrary(this.context, {
-                        resourceId: "artifact: 1268272832299664334",
+                        resourceId: "artifact: 1268209518366426035",
                         actor: {
-                            name: 'P4ndam4sk2 00',
+                            name: 'P4ndam4sk 01',
                             transform: {local:{
                                 position: { x: 0, y: -0.025, z: 0.1 },
-                                scale: { x: 40, y: 40, z: 40}
+                                scale: { x: 25, y: 25, z: 25}
                            }}
                      }
                  }).value;
@@ -109,12 +109,12 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
             //@ts-ignore
                 buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                  const model = Actor.CreateFromLibrary(this.context, {
-                        resourceId: "artifact: 1268272824691196875",
+                        resourceId: "artifact: 1268209524397835189",
                         actor: {
-                            name: 'P4ndam4sk2 01',
+                            name: 'P4ndam4sk 00',
                             transform: {local:{
                                 position: { x: 0, y: -0.025, z: 0.1 },
-                                scale: { x: 40, y: 40, z: 40},
+                                scale: { x: 25, y: 25, z: 25},
                            }}
                   }
               }).value;
@@ -123,5 +123,19 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
              }
          })
         }
+        {
+                //33333 AltspaceVR resource IDs from https://account.altvr.com/kits/
+                const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
+                libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
+                    resourceId: "artifact: 989569229617365197",
+                    actor: {
+                        name: 'Cube',
+                        transform: {local:{
+                        position: { x: 1, y: 0, z: 3 },
+                         scale: { x: 2, y: 2, z: 2}
+                        }}
+                    }
+                }))
+            }
+        }
     }
-}
