@@ -58,7 +58,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
     actor: {
         name: 'P4ndam4sk 02',
                             transform: {local:{
-                                position: { x: 0, y: 0.5, z: 0 },
+                                position: { x: 0, y: 0, z: 0 },
                                 scale: { x: 0.25, y: 0.25, z: 0.25}
         }}
     }
@@ -77,7 +77,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                         actor: {
                             name: 'P4ndam4sk 01',
                             transform: {local:{
-                                position: { x: 0, y: 0.0, z: 0 },
+                                position: { x: 0, y: 0.5, z: 0 },
                                 scale: { x: 23, y: 23, z: 23}
                            }}
                      }
