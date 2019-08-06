@@ -57,8 +57,10 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
     resourceId: "artifact: 1268209511420658610",
     actor: {
         name: 'P4ndam4sk 02',
-        transform: {
-        }
+                            transform: {local:{
+                                position: { x: 0, y: 0.0, z: 0 },
+                                scale: { x: 0.25, y: 0.25, z: 0.25}
+        }}
     }
 }));
         // Set up cursor interaction. We add the input behavior ButtonBehavior to the cube.
@@ -76,7 +78,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                             name: 'P4ndam4sk 01',
                             transform: {local:{
                                 position: { x: 0, y: 0.0, z: 0 },
-                                scale: { x: 1, y: 1, z: 1}
+                                scale: { x: 23, y: 23, z: 23}
                            }}
                      }
                  }).value;
