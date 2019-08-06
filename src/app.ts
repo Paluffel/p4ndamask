@@ -54,9 +54,9 @@ export default class HelloWorld {
 // AltspaceVR resource IDs from https://account.altvr.com/kits/
 const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
 libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
-    resourceId: "artifact: 989569229617365197",
+    resourceId: "artifact: 1268209511420658610",
     actor: {
-        name: 'Cube',
+        name: 'P4ndam4sk 02',
         transform: {
         }
     }
@@ -71,9 +71,9 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                //@ts-ignore
                    buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                     const model = Actor.CreateFromLibrary(this.context, {
-                        resourceId: "artifact: 989569229617365197",
+                        resourceId: "artifact: 1268209518366426035",
                         actor: {
-                            name: 'Cube',
+                            name: 'P4ndam4sk 01',
                             transform: {local:{
                                 position: { x: 0, y: 0.0, z: 0 },
                                 scale: { x: 1, y: 1, z: 1}
