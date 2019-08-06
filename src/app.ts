@@ -113,7 +113,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                      actor: {
                          name: 'Paluffel 02',
                          transform: {local:{
-                             position: { x: 0, y: 0, z: 0},
+                             position: { x: 0, y: -1, z: 0},
                              scale: { x: 1.4, y: 1.4, z: 1.4}
                         }}
                   }
