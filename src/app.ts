@@ -73,9 +73,9 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                //@ts-ignore
                    buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                     const model = Actor.CreateFromLibrary(this.context, {
-                        resourceId: "artifact: 1268209518366426035",
+                        resourceId: "artifact: 1268272832299664334",
                         actor: {
-                            name: 'P4ndam4sk 01',
+                            name: 'P4ndam4sk2 00',
                             transform: {local:{
                                 position: { x: 0, y: -0.025, z: 0.1 },
                                 scale: { x: 25, y: 25, z: 25}
@@ -109,9 +109,9 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
             //@ts-ignore
                 buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                  const model = Actor.CreateFromLibrary(this.context, {
-                        resourceId: "artifact: 1268209524397835189",
+                        resourceId: "artifact: 1268272824691196875",
                         actor: {
-                            name: 'P4ndam4sk 00',
+                            name: 'P4ndam4sk2 01',
                             transform: {local:{
                                 position: { x: 0, y: -0.025, z: 0.1 },
                                 scale: { x: 25, y: 25, z: 25},
