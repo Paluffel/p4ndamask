@@ -99,8 +99,6 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
             }}
         }
     }))
-})
-           }
-        })
+}
     }
 }
