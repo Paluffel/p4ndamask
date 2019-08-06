@@ -109,12 +109,13 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
             //@ts-ignore
                 buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                  const model = Actor.CreateFromLibrary(this.context, {
-                     resourceId: "artifact: 1221109463394550569",
-                     actor: {
-                         name: 'Paluffel 02',
-                         transform: {local:{
-                             position: { x: 0, y: -3, z: 0},
-                             scale: { x: 1.4, y: 1.4, z: 1.4}
+                        resourceId: "artifact: 1268209524397835189",
+                        actor: {
+                            name: 'P4ndam4sk 00',
+                            transform: {local:{
+                                position: { x: 0, y: -0.025, z: 0.1 },
+                                scale: { x: 25, y: 25, z: 25}
+                           }}
                         }}
                   }
               }).value;
