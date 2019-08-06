@@ -78,7 +78,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                             name: 'P4ndam4sk2 00',
                             transform: {local:{
                                 position: { x: 0, y: -0.025, z: 0.1 },
-                                scale: { x: 25, y: 25, z: 25}
+                                scale: { x: 28, y: 28, z: 28}
                            }}
                      }
                  }).value;
@@ -114,7 +114,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                             name: 'P4ndam4sk2 01',
                             transform: {local:{
                                 position: { x: 0, y: -0.025, z: 0.1 },
-                                scale: { x: 25, y: 25, z: 25},
+                                scale: { x: 28, y: 28, z: 28},
                            }}
                   }
               }).value;
