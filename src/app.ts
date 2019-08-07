@@ -59,7 +59,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
         name: 'P4ndam4sk 02',
                             transform: {local:{
                                 position: { x: 0, y: 0, z: 0 },
-                                scale: { x: 0.25, y: 0.25, z: 0.25}
+                                scale: { x: 0.25, y: 0.255, z: 0.25}
         }}
     }
 }));
