@@ -136,6 +136,29 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                         }}
                     }
                 }))
-            }
+        
+                   // Button behaviors have two pairs of events: hover start/stop, and click start/stop.
+       libraryActors.forEach((actor: MRE.ForwardPromise<MRE.Actor>) => {
+        if (actor) {
+            const buttonBehavior = actor.value.setBehavior(MRE.ButtonBehavior);
+
+            // 2222222222Trigger the grow/shrink animations on hover
+            //@ts-ignore
+                buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
+                 const model = Actor.CreateFromLibrary(this.context, {
+                        resourceId: "artifact: 1268728589574996863",
+                        actor: {
+                            name: 'P4ndaheadphone 03',
+                            transform: {local:{
+                                position: { x: 0, y: 0, z: 0 },
+                                scale: { x: 0.2, y: 0.2, z: 0.2},
+                           }}
+                  }
+              }).value;
+              model.attach(user, "head");
+                })
+             }
+         })
         }
     }
+}
