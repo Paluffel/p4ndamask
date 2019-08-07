@@ -224,7 +224,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                         actor: {
                             name: 'Headphes 01',
                             transform: {local:{
-                                position: { x: 0.2, y: 0, z: 0 },
+                                position: { x: 0.1, y: 0, z: 0 },
                                 scale: { x: 0.13, y: 0.12, z: 0.12},
                            }}
                   }
