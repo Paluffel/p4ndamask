@@ -220,9 +220,9 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
             //@ts-ignore
                 buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                  const model = Actor.CreateFromLibrary(this.context, {
-                        resourceId: "artifact: 1268898432043451216",
+                        resourceId: "artifact: 1269016858955088614",
                         actor: {
-                            name: 'P4ndaheadphone3',
+                            name: 'Headphes 01',
                             transform: {local:{
                                 position: { x: 0, y: -0.025, z: 0.05 },
                                 scale: { x: 0.13, y: 0.12, z: 0.12},
