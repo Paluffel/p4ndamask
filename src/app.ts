@@ -142,7 +142,81 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
         if (actor) {
             const buttonBehavior = actor.value.setBehavior(MRE.ButtonBehavior);
 
-            // 2222222222Trigger the grow/shrink animations on hover
+            // 3333333333Trigger the grow/shrink animations on hover
+            //@ts-ignore
+                buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
+                 const model = Actor.CreateFromLibrary(this.context, {
+                        resourceId: "artifact: 1268898432043451216",
+                        actor: {
+                            name: 'P4ndaheadphone3',
+                            transform: {local:{
+                                position: { x: 0, y: -0.025, z: 0.05 },
+                                scale: { x: 0.13, y: 0.12, z: 0.12},
+                           }}
+                  }
+              }).value;
+              model.attach(user, "head");
+                })
+             }
+         })
+ }
+        {
+                //444444 AltspaceVR resource IDs from https://account.altvr.com/kits/
+                const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
+                libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
+                    resourceId: "artifact: 989569229617365197",
+                    actor: {
+                        name: 'Cube',
+                        transform: {local:{
+                        position: { x: 26, y: 0, z: 3.5 },
+                         scale: { x: 0.8, y: 0.8, z: 0.8}
+                        }}
+                    }
+                }))
+        
+                   // Button behaviors have two pairs of events: hover start/stop, and click start/stop.
+       libraryActors.forEach((actor: MRE.ForwardPromise<MRE.Actor>) => {
+        if (actor) {
+            const buttonBehavior = actor.value.setBehavior(MRE.ButtonBehavior);
+
+            // 444444Trigger the grow/shrink animations on hover
+            //@ts-ignore
+                buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
+                 const model = Actor.CreateFromLibrary(this.context, {
+                        resourceId: "artifact: 1268898432043451216",
+                        actor: {
+                            name: 'P4ndaheadphone3',
+                            transform: {local:{
+                                position: { x: 0, y: -0.025, z: 0.05 },
+                                scale: { x: 0.13, y: 0.12, z: 0.12},
+                           }}
+                  }
+              }).value;
+              model.attach(user, "head");
+                })
+             }
+         }) 
+        }
+        {
+                //555555 resource IDs from https://account.altvr.com/kits/
+                const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
+                libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
+                    resourceId: "artifact: 989569229617365197",
+                    actor: {
+                        name: 'Cube',
+                        transform: {local:{
+                        position: { x: 26, y: 0, z: 2.5 },
+                         scale: { x: 0.8, y: 0.8, z: 0.8}
+                        }}
+                    }
+                }))
+        
+                   // Button behaviors have two pairs of events: hover start/stop, and click start/stop.
+       libraryActors.forEach((actor: MRE.ForwardPromise<MRE.Actor>) => {
+        if (actor) {
+            const buttonBehavior = actor.value.setBehavior(MRE.ButtonBehavior);
+
+            // 5555555Trigger the grow/shrink animations on hover
             //@ts-ignore
                 buttonBehavior.onClick((user: User) => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                  const model = Actor.CreateFromLibrary(this.context, {
