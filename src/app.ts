@@ -187,7 +187,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                         actor: {
                             name: 'Headphes 02',
                             transform: {local:{
-                                position: { x: 0, y: -0.025, z: 0.05 },
+                                position: { x: 0, y: 0, z: 0.05 },
                                 scale: { x: 0.13, y: 0.12, z: 0.12},
                            }}
                   }
@@ -224,7 +224,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                         actor: {
                             name: 'Headphes 01',
                             transform: {local:{
-                                position: { x: 0, y: -0.025, z: 0.05 },
+                                position: { x: 0, y: 0, z: 0.05 },
                                 scale: { x: 0.13, y: 0.12, z: 0.12},
                            }}
                   }
