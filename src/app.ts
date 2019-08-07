@@ -150,8 +150,8 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                         actor: {
                             name: 'P4ndaheadphone3',
                             transform: {local:{
-                                position: { x: 0, y: -0.025, z: 0 },
-                                scale: { x: 0.2, y: 0.2, z: 0.2},
+                                position: { x: 0, y: -0.025, z: 0.1 },
+                                scale: { x: 0.15, y: 0.15, z: 0.15},
                            }}
                   }
               }).value;
