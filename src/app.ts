@@ -131,7 +131,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                     actor: {
                         name: 'Cube',
                         transform: {local:{
-                        position: { x: 22, y: 0, z: -2 },
+                        position: { x: 25, y: 0, z: 3 },
                          scale: { x: 0.8, y: 0.8, z: 0.8}
                         }}
                     }
