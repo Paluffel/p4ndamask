@@ -34,7 +34,7 @@ export default class HelloWorld {
         // Create a new actor with no mesh, but some text.
         this.text = Actor.CreateEmpty(this.context, {
             actor: {
-                name: 'Text',
+                name: 'Test',
                 transform: {
                     app: { position: { x: 0, y: 0.5, z: 0 } }
                 },
