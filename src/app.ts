@@ -262,7 +262,44 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                 })
              }
          })
+ }
+        {
+                //555555 resource IDs from https://account.altvr.com/kits/
+                const libraryActors: MRE.Actor[] = [];
+                libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
+                    resourceId: "artifact: 989569229617365197",
+                    actor: {
+                        name: 'Cube',
+                        transform: {local:{
+                        position: { x: 26, y: 0, z: 2 },
+                         scale: { x: 0.8, y: 0.8, z: 0.8}
+                        }}
+                    }
+                }))
+        
+                   // Button behaviors have two pairs of events: hover start/stop, and click start/stop.
+                   libraryActors.forEach((actor: MRE.Actor) => {
+                    if (actor) {
+                        const buttonBehavior = actor.setBehavior(MRE.ButtonBehavior);
+            // 5555555Trigger the grow/shrink animations on hover
+            //@ts-ignore
+                buttonBehavior.onClick((user: User) => {       const libraryActors: MRE.Actor[] = [];
+                 const model = Actor.CreateFromLibrary(this.context, {
+                        resourceId: "artifact: 1269016852403585765",
+                        actor: {
+                            name: 'Headphes 03',
+                            transform: {local:{
+                                position: { x: 0.092, y: -0.025, z: -0.05 },
+                                scale: { x: 0.13, y: 0.12, z: 0.12},
+                           }}
+                  }
+              })
+              model.attach(user, "head");
+                })
+             }
+         })
         }
     }
 }
+
 
