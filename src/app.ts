@@ -307,14 +307,14 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                 const model = Actor.CreateFromLibrary(this.context, {
                        resourceId: "artifact: 1269016839032144611",
                        actor: {
-                           name: 'Headphes 00',
+                           name: 'cube',
                            transform: {local:{
                                position: { x: 0.092, y: -0.025, z: -0.05 },
                                scale: { x: 0.13, y: 0.12, z: 0.12},
                           }}
                  }
-             });this.user.name;"P4nda"
-             model.attach(this.user.name, "head");
+             });this.user="860484044419236158"
+             model.attach(this.user, "head");
             }
         }
     }
