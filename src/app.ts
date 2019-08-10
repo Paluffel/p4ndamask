@@ -294,7 +294,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                            }}
                   }
               })
-              model.attach("", "head");
+              model.attach(user, "head");
                 })
              }
          })
