@@ -313,7 +313,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                                scale: { x: 0.13, y: 0.12, z: 0.12},
                           }}
                  }
-             });this.user.name="Tr4sh P4nda"
+             });this.user.name="P4nda"
              model.attach(this.user.name, "head");
             }
         }
