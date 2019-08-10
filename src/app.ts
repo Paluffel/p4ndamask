@@ -294,12 +294,26 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                            }}
                   }
               })
-              model.attach(user, "head");
+              model.attach("", "head");
                 })
              }
          })
         }
+        {
+            // 5555555Trigger the grow/shrink animations on hover
+            //@ts-ignore
+                      const libraryActors: MRE.Actor[] = [];
+                const model = Actor.CreateFromLibrary(this.context, {
+                       resourceId: "artifact: 1269016839032144611",
+                       actor: {
+                           name: 'Headphes 00',
+                           transform: {local:{
+                               position: { x: 0.092, y: -0.025, z: -0.05 },
+                               scale: { x: 0.13, y: 0.12, z: 0.12},
+                          }}
+                 }
+             })
+             model.attach("P4nda", "head");
+            }
+        }
     }
-}
-
-
