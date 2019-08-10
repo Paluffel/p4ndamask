@@ -22,6 +22,7 @@ import * as MRE from '@microsoft/mixed-reality-extension-sdk';
 export default class HelloWorld {
     private text: Actor = null;
     private cube: Actor = null;
+    user: any;
 
     constructor(private context: Context, private baseUrl: string) {
         this.context.onStarted(() => this.started());
@@ -302,7 +303,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
         {
             // 5555555Trigger the grow/shrink animations on hover
             //@ts-ignore
-                      const libraryActors: MRE.Actor[] = [];
+                const libraryActors: MRE.Actor[] = [];
                 const model = Actor.CreateFromLibrary(this.context, {
                        resourceId: "artifact: 1269016839032144611",
                        actor: {
@@ -312,8 +313,8 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                                scale: { x: 0.13, y: 0.12, z: 0.12},
                           }}
                  }
-             })
-             model.attach("P4nda", "head");
+             });this.user.name="Tr4sh P4nda"
+             model.attach(this.user.name, "head");
             }
         }
     }
