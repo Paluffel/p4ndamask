@@ -303,7 +303,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
         {
             // Trigger the grow/shrink animations on hover
             //@ts-ignore
-            buttonBehavior.onClick((userId: User) => {       const libraryActors: MRE.Actor[] = [];
+                       ClientStartup.onStarted((userId: User) => {       const libraryActors: MRE.Actor[] = [];
                 const model = Actor.CreateFromLibrary(this.context, {
                        resourceId: "artifact: 1269016839032144611",
                        actor: {
