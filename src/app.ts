@@ -301,20 +301,24 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
          })
         }
         {
-            // 5555555Trigger the grow/shrink animations on hover
+            // Trigger the grow/shrink animations on hover
             //@ts-ignore
-                const libraryActors: MRE.Actor[] = [];
-                const model = Actor.CreateFromLibrary(this.context, {
-                       resourceId: "artifact: 1269016839032144611",
-                       actor: {
-                           name: 'Headphes 00',
-                           transform: {local:{
-                               position: { x: 0.092, y: -0.025, z: -0.05 },
-                               scale: { x: 0.13, y: 0.12, z: 0.12},
-                          }}
+                onJoin((userId: "860484044419236158") => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
+                  libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
+                     resourceId: "artifact: 989569229617365197",
+                     actor: {
+                         name: 'Cube',
+                        transform: {
+                         local: {scale: { x: 2, y: 2, z: 2 }
+                     },
+                 },
+                 attachment: {
+                     attachPoint: 'head',
+                     userId
                  }
-             });this.user="860484044419236158"
-             model.attach(this.user, "head");
-            }
-        }
+                }
+            }))
+        })
     }
+}
+}
