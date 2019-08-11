@@ -303,7 +303,7 @@ libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
         {
             // Trigger the grow/shrink animations on hover
             //@ts-ignore
-            onStarted((userId: "860484044419236158") => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
+            onStarted((userId: "939025601660978100") => {        const libraryActors: Array<MRE.ForwardPromise<MRE.Actor>> = [];
                   libraryActors.push(MRE.Actor.CreateFromLibrary(this.context, {
                      resourceId: "artifact: 989569229617365197",
                      actor: {
